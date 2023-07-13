@@ -1,0 +1,13 @@
+2023-07-04 09:28:50.722 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-04 09:28:50.821 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-04 09:28:50.827 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 09:28:50.835 +01:00 [INF] Hosting environment: Development
+2023-07-04 09:28:50.836 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-04 09:28:53.170 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-04 09:28:54.207 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 09:28:54.229 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-04 09:28:54.211 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 1048.9790ms
+2023-07-04 09:28:54.252 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 44.0251ms
+2023-07-04 09:28:54.415 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 186.0918ms
+2023-07-04 09:28:54.527 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-04 09:28:54.739 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 211.3438ms

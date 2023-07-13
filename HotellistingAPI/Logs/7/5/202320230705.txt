@@ -1,0 +1,66 @@
+2023-07-05 10:58:45.367 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-05 10:58:45.416 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-05 10:58:45.422 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-05 10:58:45.424 +01:00 [INF] Hosting environment: Development
+2023-07-05 10:58:45.425 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-05 10:58:46.969 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-05 10:58:49.003 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 2041.0826ms
+2023-07-05 10:58:49.021 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-05 10:58:49.021 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-05 10:58:49.034 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 13.0473ms
+2023-07-05 10:58:49.077 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.7607ms
+2023-07-05 10:58:49.342 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-05 10:58:49.560 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 217.5818ms
+2023-07-05 10:58:57.053 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/WeatherForecast - -
+2023-07-05 10:58:57.062 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.WeatherForecastController.Get (HotellistingAPI)'
+2023-07-05 10:58:57.078 +01:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[HotellistingAPI.WeatherForecast] Get() on controller HotellistingAPI.Controllers.WeatherForecastController (HotellistingAPI).
+2023-07-05 10:58:57.089 +01:00 [INF] Executing ObjectResult, writing value of type 'HotellistingAPI.WeatherForecast[]'.
+2023-07-05 10:58:57.120 +01:00 [INF] Executed action HotellistingAPI.Controllers.WeatherForecastController.Get (HotellistingAPI) in 35.6305ms
+2023-07-05 10:58:57.128 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.WeatherForecastController.Get (HotellistingAPI)'
+2023-07-05 10:58:57.132 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/WeatherForecast - - - 200 - application/json;+charset=utf-8 79.6135ms
+2023-07-05 11:13:37.036 +01:00 [INF] Executed DbCommand (512ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [HotelListingAPIDb];
+2023-07-05 11:13:37.458 +01:00 [INF] Executed DbCommand (325ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [HotelListingAPIDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-07-05 11:13:37.512 +01:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-05 11:13:37.758 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-07-05 11:13:37.763 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-05 11:13:37.817 +01:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-05 11:13:37.854 +01:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-05 11:13:37.894 +01:00 [INF] Applying migration '20230705091243_InitialMigration'.
+2023-07-05 11:13:38.029 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Countries] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [ShortName] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Countries] PRIMARY KEY ([Id])
+);
+2023-07-05 11:13:38.033 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Hotels] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Address] nvarchar(max) NOT NULL,
+    [Rating] float NOT NULL,
+    [CountryId] int NOT NULL,
+    CONSTRAINT [PK_Hotels] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Hotels_Countries_CountryId] FOREIGN KEY ([CountryId]) REFERENCES [Countries] ([Id]) ON DELETE CASCADE
+);
+2023-07-05 11:13:38.039 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Hotels_CountryId] ON [Hotels] ([CountryId]);
+2023-07-05 11:13:38.048 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230705091243_InitialMigration', N'7.0.8');

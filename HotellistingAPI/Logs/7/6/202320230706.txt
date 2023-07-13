@@ -1,0 +1,40 @@
+2023-07-06 09:41:54.660 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-06 09:41:54.810 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-06 09:41:54.819 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 09:41:54.822 +01:00 [INF] Hosting environment: Development
+2023-07-06 09:41:54.825 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-06 09:42:19.523 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger - -
+2023-07-06 09:42:19.910 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger - - - 301 0 - 392.4433ms
+2023-07-06 09:42:19.914 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-06 09:42:20.915 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 1001.0905ms
+2023-07-06 09:42:38.100 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/swagger-ui.css - -
+2023-07-06 09:42:38.100 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/swagger-ui-bundle.js - -
+2023-07-06 09:42:38.100 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/swagger-ui-standalone-preset.js - -
+2023-07-06 09:42:38.103 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 09:42:38.117 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-06 09:42:38.257 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-07-06 09:42:38.264 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 160.3227ms
+2023-07-06 09:42:38.271 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/swagger-ui.css - - - 200 143632 text/css 171.3213ms
+2023-07-06 09:42:38.302 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-07-06 09:42:38.336 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 235.6060ms
+2023-07-06 09:42:38.336 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-07-06 09:42:38.341 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 224.1285ms
+2023-07-06 09:42:38.348 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 247.2811ms
+2023-07-06 09:42:38.829 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-06 09:42:38.829 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/favicon-32x32.png - -
+2023-07-06 09:42:38.854 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-07-06 09:42:38.871 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/favicon-32x32.png - - - 200 628 image/png 42.2942ms
+2023-07-06 09:42:39.107 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 277.6570ms
+2023-07-06 16:29:40.240 +01:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-06 16:29:40.342 +01:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-06 16:29:40.346 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-06 16:29:40.348 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-06 16:29:40.395 +01:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-06 16:29:40.414 +01:00 [INF] No migrations were applied. The database is already up to date.
