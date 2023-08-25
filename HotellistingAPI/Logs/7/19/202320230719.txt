@@ -1,0 +1,837 @@
+2023-07-19 11:05:53.362 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-19 11:05:53.427 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-19 11:05:53.433 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 11:05:53.434 +01:00 [INF] Hosting environment: Development
+2023-07-19 11:05:53.435 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-19 11:05:55.256 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 11:05:56.407 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 11:05:56.415 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 1161.6514ms
+2023-07-19 11:05:56.417 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 9.5719ms
+2023-07-19 11:05:56.458 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 11:05:56.562 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 103.4179ms
+2023-07-19 11:05:56.626 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 11:05:56.733 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 106.9023ms
+2023-07-19 11:06:00.286 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 11:06:00.304 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 18.2696ms
+2023-07-19 11:06:00.360 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 11:06:00.361 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 11:06:00.361 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 1.0774ms
+2023-07-19 11:06:00.396 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.2791ms
+2023-07-19 11:06:00.465 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 11:06:00.470 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.7810ms
+2023-07-19 11:12:00.783 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-19 11:12:00.855 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-19 11:12:00.864 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 11:12:00.866 +01:00 [INF] Hosting environment: Development
+2023-07-19 11:12:00.867 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-19 11:12:02.396 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 11:12:03.123 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 11:12:03.126 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 735.6188ms
+2023-07-19 11:12:03.142 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 18.1191ms
+2023-07-19 11:12:03.142 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 11:12:03.169 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.5033ms
+2023-07-19 11:12:03.296 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 11:12:03.434 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.6875ms
+2023-07-19 11:12:13.948 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel - -
+2023-07-19 11:12:13.958 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 11:12:13.994 +01:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 11:12:15.940 +01:00 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM [Hotels] AS [h]
+2023-07-19 11:12:16.103 +01:00 [ERR] something went wrong in the GetHotels
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IList`1
+System.Collections.Generic.List`1[[HotellistingAPI.Data.Hotel, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IList`1[[HotellistingAPI.Models.HotelDTO, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Hotel -> HotelDTO
+HotellistingAPI.Data.Hotel -> HotellistingAPI.Models.HotelDTO
+   at lambda_method35(Closure , Hotel , HotelDTO , ResolutionContext )
+   at lambda_method34(Closure , Object , IList`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method34(Closure , Object , IList`1 , ResolutionContext )
+   at HotellistingAPI.Controllers.HotelController.GetHotels() in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Controllers\HotelController.cs:line 34
+2023-07-19 11:12:16.165 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-19 11:12:16.173 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI) in 2172.7086ms
+2023-07-19 11:12:16.178 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 11:12:16.191 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel - - - 500 - text/plain;+charset=utf-8 2243.6978ms
+2023-07-19 11:12:43.445 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Country - -
+2023-07-19 11:12:43.456 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.CountryController.GetCountries (HotellistingAPI)'
+2023-07-19 11:12:43.459 +01:00 [INF] Route matched with {action = "GetCountries", controller = "Country"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCountries() on controller HotellistingAPI.Controllers.CountryController (HotellistingAPI).
+2023-07-19 11:12:43.501 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+2023-07-19 11:12:43.508 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotellistingAPI.Models.CountryDTO, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-19 11:12:43.635 +01:00 [INF] Executed action HotellistingAPI.Controllers.CountryController.GetCountries (HotellistingAPI) in 171.7727ms
+2023-07-19 11:12:43.638 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.CountryController.GetCountries (HotellistingAPI)'
+2023-07-19 11:12:43.639 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Country - - - 200 172 application/json;+charset=utf-8 194.3071ms
+2023-07-19 11:13:40.466 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-19 11:13:40.508 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-19 11:13:40.515 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 11:13:40.517 +01:00 [INF] Hosting environment: Development
+2023-07-19 11:13:40.517 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-19 11:13:41.163 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7053/api/Hotel - -
+2023-07-19 11:13:41.226 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 11:13:41.246 +01:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 11:13:42.767 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 11:13:43.291 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 522.5746ms
+2023-07-19 11:13:43.294 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 11:13:43.307 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 13.2895ms
+2023-07-19 11:13:43.320 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 11:13:43.362 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.3262ms
+2023-07-19 11:13:43.459 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 11:13:43.596 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.5569ms
+2023-07-19 11:13:43.964 +01:00 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM [Hotels] AS [h]
+2023-07-19 11:13:44.080 +01:00 [ERR] something went wrong in the GetHotels
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IList`1
+System.Collections.Generic.List`1[[HotellistingAPI.Data.Hotel, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IList`1[[HotellistingAPI.Models.HotelDTO, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Hotel -> HotelDTO
+HotellistingAPI.Data.Hotel -> HotellistingAPI.Models.HotelDTO
+   at lambda_method35(Closure , Hotel , HotelDTO , ResolutionContext )
+   at lambda_method34(Closure , Object , IList`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method34(Closure , Object , IList`1 , ResolutionContext )
+   at HotellistingAPI.Controllers.HotelController.GetHotels() in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Controllers\HotelController.cs:line 34
+2023-07-19 11:13:44.122 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-19 11:13:44.141 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI) in 2888.6416ms
+2023-07-19 11:13:44.143 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 11:13:44.154 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7053/api/Hotel - - - 500 - text/plain;+charset=utf-8 2993.1822ms
+2023-07-19 11:13:52.974 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7053/api/Hotel - -
+2023-07-19 11:13:52.977 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 11:13:52.978 +01:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 11:13:53.020 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM [Hotels] AS [h]
+2023-07-19 11:13:53.045 +01:00 [ERR] something went wrong in the GetHotels
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IList`1
+System.Collections.Generic.List`1[[HotellistingAPI.Data.Hotel, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IList`1[[HotellistingAPI.Models.HotelDTO, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Hotel -> HotelDTO
+HotellistingAPI.Data.Hotel -> HotellistingAPI.Models.HotelDTO
+   at lambda_method35(Closure , Hotel , HotelDTO , ResolutionContext )
+   at lambda_method34(Closure , Object , IList`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method34(Closure , Object , IList`1 , ResolutionContext )
+   at HotellistingAPI.Controllers.HotelController.GetHotels() in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Controllers\HotelController.cs:line 34
+2023-07-19 11:13:53.050 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-19 11:13:53.051 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI) in 70.7465ms
+2023-07-19 11:13:53.052 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 11:13:53.053 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7053/api/Hotel - - - 500 - text/plain;+charset=utf-8 78.8110ms
+2023-07-19 11:23:59.831 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-19 11:23:59.988 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-19 11:24:00.005 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 11:24:00.011 +01:00 [INF] Hosting environment: Development
+2023-07-19 11:24:00.014 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-19 11:24:03.234 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 11:24:04.684 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 11:24:04.713 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 26.4952ms
+2023-07-19 11:24:04.716 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 1498.3094ms
+2023-07-19 11:24:04.762 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 11:24:04.865 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 102.8012ms
+2023-07-19 11:24:05.247 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 11:24:05.725 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 477.3305ms
+2023-07-19 11:27:04.035 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-19 11:27:04.507 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-19 11:27:04.568 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 11:27:04.574 +01:00 [INF] Hosting environment: Development
+2023-07-19 11:27:04.578 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-19 11:27:08.145 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 11:27:10.787 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 11:27:10.814 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 24.8818ms
+2023-07-19 11:27:10.857 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 2764.6831ms
+2023-07-19 11:27:10.921 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 11:27:11.160 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 239.3453ms
+2023-07-19 11:27:11.448 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 11:27:11.925 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 477.0763ms
+2023-07-19 11:27:20.354 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel - -
+2023-07-19 11:27:20.395 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 11:27:20.502 +01:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 11:27:26.433 +01:00 [INF] Executed DbCommand (170ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM [Hotels] AS [h]
+2023-07-19 11:27:26.745 +01:00 [ERR] something went wrong in the GetHotels
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IList`1
+System.Collections.Generic.List`1[[HotellistingAPI.Data.Hotel, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IList`1[[HotellistingAPI.Models.HotelDTO, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Hotel -> HotelDTO
+HotellistingAPI.Data.Hotel -> HotellistingAPI.Models.HotelDTO
+   at lambda_method35(Closure , Hotel , HotelDTO , ResolutionContext )
+   at lambda_method34(Closure , Object , IList`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method34(Closure , Object , IList`1 , ResolutionContext )
+   at HotellistingAPI.Controllers.HotelController.GetHotels() in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Controllers\HotelController.cs:line 34
+2023-07-19 11:27:26.935 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-19 11:27:26.965 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI) in 6429.5019ms
+2023-07-19 11:27:26.975 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 11:27:27.065 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel - - - 500 - text/plain;+charset=utf-8 6711.0125ms
+2023-07-19 12:13:25.005 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-19 12:13:25.095 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-19 12:13:25.102 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 12:13:25.105 +01:00 [INF] Hosting environment: Development
+2023-07-19 12:13:25.106 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-19 12:13:43.282 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 12:13:45.046 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/swagger-ui-standalone-preset.js - -
+2023-07-19 12:13:45.048 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 12:13:45.046 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/swagger-ui-bundle.js - -
+2023-07-19 12:13:45.046 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/swagger-ui.css - -
+2023-07-19 12:13:45.061 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 1785.3232ms
+2023-07-19 12:13:45.061 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 12.5469ms
+2023-07-19 12:13:45.090 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 12:13:45.110 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-07-19 12:13:45.110 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-07-19 12:13:45.110 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-07-19 12:13:45.112 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 65.3353ms
+2023-07-19 12:13:45.113 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/swagger-ui.css - - - 200 143632 text/css 66.8420ms
+2023-07-19 12:13:45.117 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 70.1202ms
+2023-07-19 12:13:45.159 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 69.0800ms
+2023-07-19 12:13:45.422 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 12:13:45.471 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/favicon-32x32.png - -
+2023-07-19 12:13:45.473 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-07-19 12:13:45.476 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/favicon-32x32.png - - - 200 628 image/png 4.8810ms
+2023-07-19 12:13:45.549 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.6667ms
+2023-07-19 12:13:46.116 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger - -
+2023-07-19 12:13:46.120 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger - - - 301 0 - 3.7429ms
+2023-07-19 12:13:46.127 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 12:13:46.143 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 16.4627ms
+2023-07-19 12:13:53.335 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 12:13:53.337 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 2.3231ms
+2023-07-19 12:13:53.354 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 12:13:53.368 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.3998ms
+2023-07-19 12:13:53.544 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 12:13:53.546 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2.1962ms
+2023-07-19 12:14:49.347 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel - -
+2023-07-19 12:14:49.362 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 12:14:49.387 +01:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 12:14:57.630 +01:00 [INF] Executed DbCommand (105ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM [Hotels] AS [h]
+2023-07-19 12:14:57.836 +01:00 [ERR] something went wrong in the GetHotels
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IList`1
+System.Collections.Generic.List`1[[HotellistingAPI.Data.Hotel, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IList`1[[HotellistingAPI.Models.HotelDTO, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Hotel -> HotelDTO
+HotellistingAPI.Data.Hotel -> HotellistingAPI.Models.HotelDTO
+   at lambda_method35(Closure , Hotel , HotelDTO , ResolutionContext )
+   at lambda_method34(Closure , Object , IList`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method34(Closure , Object , IList`1 , ResolutionContext )
+   at HotellistingAPI.Controllers.HotelController.GetHotels() in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Controllers\HotelController.cs:line 34
+2023-07-19 12:14:58.446 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-19 12:14:58.458 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI) in 9059.1828ms
+2023-07-19 12:14:58.461 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 12:14:58.473 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel - - - 500 - text/plain;+charset=utf-8 9126.4973ms
+2023-07-19 12:15:42.642 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel - -
+2023-07-19 12:15:42.648 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 12:15:42.651 +01:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 12:16:46.294 +01:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM [Hotels] AS [h]
+2023-07-19 12:18:12.226 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-19 12:18:12.262 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-19 12:18:12.266 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 12:18:12.268 +01:00 [INF] Hosting environment: Development
+2023-07-19 12:18:12.268 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-19 12:18:13.076 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 12:18:13.516 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 12:18:13.523 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 7.6629ms
+2023-07-19 12:18:13.523 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 450.6927ms
+2023-07-19 12:18:13.538 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 12:18:13.567 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.6289ms
+2023-07-19 12:18:13.670 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 12:18:13.786 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.8637ms
+2023-07-19 12:18:17.211 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel - -
+2023-07-19 12:18:17.225 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 12:18:17.251 +01:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 12:18:19.083 +01:00 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM [Hotels] AS [h]
+2023-07-19 12:18:19.168 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotellistingAPI.Models.HotelDTO, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-19 12:18:19.681 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI) in 2420.7984ms
+2023-07-19 12:18:19.684 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 12:18:19.696 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel - - - 200 301 application/json;+charset=utf-8 2485.3871ms
+2023-07-19 12:19:01.105 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel/3 - -
+2023-07-19 12:19:01.116 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 12:19:01.134 +01:00 [INF] Route matched with {action = "GetHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotel(Int32) on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 12:19:21.491 +01:00 [ERR] something went wrong in the GetHotel
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation 'Hotel' specified in string based include path 'Hotel'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`2.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam1 arg1, TParam2 arg2)
+   at Microsoft.EntityFrameworkCore.Diagnostics.CoreLoggerExtensions.InvalidIncludePathError(IDiagnosticsLogger`1 diagnostics, String navigationChain, String navigationName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at HotellistingAPI.Repository.GenericRepository`1.Get(Expression`1 expression, List`1 includes) in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Repository\GenericRepository.cs:line 0
+   at HotellistingAPI.Controllers.HotelController.GetHotel(Int32 id) in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Controllers\HotelController.cs:line 51
+2023-07-19 12:19:21.523 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-19 12:19:21.524 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI) in 20387.302ms
+2023-07-19 12:19:21.525 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 12:19:21.528 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel/3 - - - 500 - text/plain;+charset=utf-8 20425.6571ms
+2023-07-19 12:19:24.277 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel/3 - -
+2023-07-19 12:19:24.279 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 12:19:24.280 +01:00 [INF] Route matched with {action = "GetHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotel(Int32) on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 12:22:46.935 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-19 12:22:47.011 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-19 12:22:47.017 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 12:22:47.018 +01:00 [INF] Hosting environment: Development
+2023-07-19 12:22:47.019 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-19 12:22:47.732 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 12:22:48.171 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 12:22:48.178 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 449.1061ms
+2023-07-19 12:22:48.178 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 5.4101ms
+2023-07-19 12:22:48.198 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 12:22:48.275 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 77.0978ms
+2023-07-19 12:22:48.332 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 12:22:48.452 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 119.6156ms
+2023-07-19 12:23:02.641 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel/2 - -
+2023-07-19 12:23:02.650 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 12:23:02.682 +01:00 [INF] Route matched with {action = "GetHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotel(Int32) on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 12:40:19.312 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-19 12:40:19.462 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-19 12:40:19.481 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 12:40:19.484 +01:00 [INF] Hosting environment: Development
+2023-07-19 12:40:19.487 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-19 12:40:24.259 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 12:40:26.353 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 12:40:26.424 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 12:40:26.472 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 2232.0526ms
+2023-07-19 12:40:26.611 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 257.4426ms
+2023-07-19 12:40:26.955 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 531.3961ms
+2023-07-19 12:40:27.226 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 12:40:27.764 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 537.6478ms
+2023-07-19 12:40:34.261 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Country - -
+2023-07-19 12:40:34.289 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.CountryController.GetCountries (HotellistingAPI)'
+2023-07-19 12:40:34.384 +01:00 [INF] Route matched with {action = "GetCountries", controller = "Country"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCountries() on controller HotellistingAPI.Controllers.CountryController (HotellistingAPI).
+2023-07-19 12:40:39.429 +01:00 [INF] Executed DbCommand (176ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+2023-07-19 12:40:39.684 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotellistingAPI.Models.CountryDTO, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-19 12:40:40.075 +01:00 [INF] Executed action HotellistingAPI.Controllers.CountryController.GetCountries (HotellistingAPI) in 5661.4301ms
+2023-07-19 12:40:40.082 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.CountryController.GetCountries (HotellistingAPI)'
+2023-07-19 12:40:40.140 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Country - - - 200 172 application/json;+charset=utf-8 5879.6522ms
+2023-07-19 12:40:49.471 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Country/1 - -
+2023-07-19 12:40:49.479 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.CountryController.GetCountry (HotellistingAPI)'
+2023-07-19 12:40:49.517 +01:00 [INF] Route matched with {action = "GetCountry", controller = "Country"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCountry(Int32) on controller HotellistingAPI.Controllers.CountryController (HotellistingAPI).
+2023-07-19 12:40:50.462 +01:00 [INF] Executed DbCommand (184ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name], [t].[ShortName], [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[Name], [c].[ShortName]
+    FROM [Countries] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [Hotels] AS [h] ON [t].[Id] = [h].[CountryId]
+ORDER BY [t].[Id]
+2023-07-19 12:40:50.540 +01:00 [INF] Executing OkObjectResult, writing value of type 'HotellistingAPI.Models.CountryDTO'.
+2023-07-19 12:40:50.563 +01:00 [INF] Executed action HotellistingAPI.Controllers.CountryController.GetCountry (HotellistingAPI) in 1040.991ms
+2023-07-19 12:40:50.578 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.CountryController.GetCountry (HotellistingAPI)'
+2023-07-19 12:40:50.583 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Country/1 - - - 200 140 application/json;+charset=utf-8 1111.9484ms
+2023-07-19 12:41:00.923 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel - -
+2023-07-19 12:41:00.926 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 12:41:00.949 +01:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 12:41:01.002 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM [Hotels] AS [h]
+2023-07-19 12:41:01.015 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotellistingAPI.Models.HotelDTO, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-19 12:41:01.021 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI) in 62.3278ms
+2023-07-19 12:41:01.025 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 12:41:01.027 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel - - - 200 301 application/json;+charset=utf-8 103.9521ms
+2023-07-19 12:41:08.807 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel/1 - -
+2023-07-19 12:41:08.812 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 12:41:08.826 +01:00 [INF] Route matched with {action = "GetHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotel(Int32) on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 12:41:09.017 +01:00 [ERR] something went wrong in the GetHotel
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation 'Hotel' specified in string based include path 'Hotel'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`2.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam1 arg1, TParam2 arg2)
+   at Microsoft.EntityFrameworkCore.Diagnostics.CoreLoggerExtensions.InvalidIncludePathError(IDiagnosticsLogger`1 diagnostics, String navigationChain, String navigationName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at HotellistingAPI.Repository.GenericRepository`1.Get(Expression`1 expression, List`1 includes) in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Repository\GenericRepository.cs:line 0
+   at HotellistingAPI.Controllers.HotelController.GetHotel(Int32 id) in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Controllers\HotelController.cs:line 51
+2023-07-19 12:41:09.094 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-19 12:41:09.096 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI) in 261.3635ms
+2023-07-19 12:41:09.102 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 12:41:09.109 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel/1 - - - 500 - text/plain;+charset=utf-8 302.5416ms
+2023-07-19 12:46:12.337 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel/1 - -
+2023-07-19 12:46:12.370 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 12:46:12.406 +01:00 [INF] Route matched with {action = "GetHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotel(Int32) on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 12:46:12.621 +01:00 [ERR] something went wrong in the GetHotel
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation 'Hotel' specified in string based include path 'Hotel'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`2.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam1 arg1, TParam2 arg2)
+   at Microsoft.EntityFrameworkCore.Diagnostics.CoreLoggerExtensions.InvalidIncludePathError(IDiagnosticsLogger`1 diagnostics, String navigationChain, String navigationName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at HotellistingAPI.Repository.GenericRepository`1.Get(Expression`1 expression, List`1 includes) in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Repository\GenericRepository.cs:line 0
+   at HotellistingAPI.Controllers.HotelController.GetHotel(Int32 id) in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Controllers\HotelController.cs:line 51
+2023-07-19 12:46:12.677 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-19 12:46:12.687 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI) in 244.8543ms
+2023-07-19 12:46:12.696 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 12:46:12.704 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel/1 - - - 500 - text/plain;+charset=utf-8 366.5483ms
+2023-07-19 12:47:22.042 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 12:47:22.150 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 108.4230ms
+2023-07-19 12:47:22.350 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 12:47:22.350 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 12:47:22.413 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 63.4878ms
+2023-07-19 12:47:22.490 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 139.4560ms
+2023-07-19 12:47:23.527 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 12:47:23.723 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 195.1710ms
+2023-07-19 12:47:24.341 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 12:47:24.428 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 86.6193ms
+2023-07-19 12:47:24.494 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 12:47:24.494 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 12:47:24.596 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 101.4927ms
+2023-07-19 12:47:24.596 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 102.4182ms
+2023-07-19 12:47:24.986 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 12:47:25.007 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 20.7883ms
+2023-07-19 12:47:30.402 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel - -
+2023-07-19 12:47:30.412 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 12:47:30.432 +01:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 12:47:30.748 +01:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM [Hotels] AS [h]
+2023-07-19 12:47:30.767 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotellistingAPI.Models.HotelDTO, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-19 12:47:30.779 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI) in 331.3506ms
+2023-07-19 12:47:30.788 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 12:47:30.791 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel - - - 200 301 application/json;+charset=utf-8 389.4354ms
+2023-07-19 12:47:40.445 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel/1 - -
+2023-07-19 12:47:40.773 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 12:47:40.834 +01:00 [INF] Route matched with {action = "GetHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotel(Int32) on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 12:47:41.179 +01:00 [ERR] something went wrong in the GetHotel
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation 'countries' specified in string based include path 'countries'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`2.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam1 arg1, TParam2 arg2)
+   at Microsoft.EntityFrameworkCore.Diagnostics.CoreLoggerExtensions.InvalidIncludePathError(IDiagnosticsLogger`1 diagnostics, String navigationChain, String navigationName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at HotellistingAPI.Repository.GenericRepository`1.Get(Expression`1 expression, List`1 includes)
+   at HotellistingAPI.Controllers.HotelController.GetHotel(Int32 id)
+2023-07-19 12:47:41.235 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-19 12:47:41.244 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI) in 332.3366ms
+2023-07-19 12:47:41.253 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 12:47:41.265 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel/1 - - - 500 - text/plain;+charset=utf-8 819.6337ms
+2023-07-19 12:48:22.282 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel/1 - -
+2023-07-19 12:48:22.346 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 12:48:22.351 +01:00 [INF] Route matched with {action = "GetHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotel(Int32) on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 12:52:59.390 +01:00 [ERR] something went wrong in the GetHotel
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation 'countries' specified in string based include path 'countries'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`2.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam1 arg1, TParam2 arg2)
+   at Microsoft.EntityFrameworkCore.Diagnostics.CoreLoggerExtensions.InvalidIncludePathError(IDiagnosticsLogger`1 diagnostics, String navigationChain, String navigationName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at HotellistingAPI.Repository.GenericRepository`1.Get(Expression`1 expression, List`1 includes)
+   at HotellistingAPI.Controllers.HotelController.GetHotel(Int32 id)
+2023-07-19 12:53:04.646 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-19 12:53:04.650 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI) in 282286.0854ms
+2023-07-19 12:53:04.654 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 13:11:21.570 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel/1 - - - 500 - text/plain;+charset=utf-8 1379287.9847ms
+2023-07-19 13:11:22.362 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7053/api/Country - -
+2023-07-19 13:11:22.512 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.CountryController.GetCountries (HotellistingAPI)'
+2023-07-19 13:11:22.653 +01:00 [INF] Route matched with {action = "GetCountries", controller = "Country"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCountries() on controller HotellistingAPI.Controllers.CountryController (HotellistingAPI).
+2023-07-19 13:11:23.522 +01:00 [INF] Executed DbCommand (126ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+2023-07-19 13:11:23.589 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotellistingAPI.Models.CountryDTO, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-19 13:11:23.671 +01:00 [INF] Executed action HotellistingAPI.Controllers.CountryController.GetCountries (HotellistingAPI) in 756.5329ms
+2023-07-19 13:11:23.690 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.CountryController.GetCountries (HotellistingAPI)'
+2023-07-19 13:11:23.699 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7053/api/Country - - - 200 172 application/json;+charset=utf-8 1337.3477ms
+2023-07-19 13:32:57.979 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-19 13:32:58.153 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-19 13:32:58.167 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 13:32:58.172 +01:00 [INF] Hosting environment: Development
+2023-07-19 13:32:58.175 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-19 13:33:01.965 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 13:33:04.561 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 13:33:04.619 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 13:33:04.772 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 2825.9956ms
+2023-07-19 13:33:04.890 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 328.2956ms
+2023-07-19 13:33:05.275 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 655.8077ms
+2023-07-19 13:33:05.464 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 13:33:06.079 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 614.5725ms
+2023-07-19 13:33:17.052 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Country/1 - -
+2023-07-19 13:33:17.086 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.CountryController.GetCountry (HotellistingAPI)'
+2023-07-19 13:33:17.225 +01:00 [INF] Route matched with {action = "GetCountry", controller = "Country"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCountry(Int32) on controller HotellistingAPI.Controllers.CountryController (HotellistingAPI).
+2023-07-19 13:33:26.037 +01:00 [INF] Executed DbCommand (256ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name], [t].[ShortName], [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[Name], [c].[ShortName]
+    FROM [Countries] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [Hotels] AS [h] ON [t].[Id] = [h].[CountryId]
+ORDER BY [t].[Id]
+2023-07-19 13:33:26.388 +01:00 [INF] Executing OkObjectResult, writing value of type 'HotellistingAPI.Models.CountryDTO'.
+2023-07-19 13:33:26.805 +01:00 [INF] Executed action HotellistingAPI.Controllers.CountryController.GetCountry (HotellistingAPI) in 9560.6203ms
+2023-07-19 13:33:26.811 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.CountryController.GetCountry (HotellistingAPI)'
+2023-07-19 13:33:26.868 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Country/1 - - - 200 140 application/json;+charset=utf-8 9816.0541ms
+2023-07-19 13:34:09.525 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel/1 - -
+2023-07-19 13:34:09.555 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 13:34:09.567 +01:00 [INF] Route matched with {action = "GetHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotel(Int32) on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 13:34:10.101 +01:00 [ERR] something went wrong in the GetHotel
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation 'countries' specified in string based include path 'countries'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`2.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam1 arg1, TParam2 arg2)
+   at Microsoft.EntityFrameworkCore.Diagnostics.CoreLoggerExtensions.InvalidIncludePathError(IDiagnosticsLogger`1 diagnostics, String navigationChain, String navigationName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at HotellistingAPI.Repository.GenericRepository`1.Get(Expression`1 expression, List`1 includes) in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Repository\GenericRepository.cs:line 0
+   at HotellistingAPI.Controllers.HotelController.GetHotel(Int32 id) in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Controllers\HotelController.cs:line 51
+2023-07-19 13:34:10.265 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-19 13:34:10.276 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI) in 699.5915ms
+2023-07-19 13:34:10.284 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 13:34:10.293 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel/1 - - - 500 - text/plain;+charset=utf-8 768.7289ms
+2023-07-19 13:34:36.732 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel/1 - -
+2023-07-19 13:34:36.751 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 13:34:36.758 +01:00 [INF] Route matched with {action = "GetHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotel(Int32) on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 13:41:37.933 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-19 13:41:38.139 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-19 13:41:38.155 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 13:41:38.161 +01:00 [INF] Hosting environment: Development
+2023-07-19 13:41:38.164 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-19 13:41:41.493 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 13:41:43.859 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 13:41:43.889 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 27.7376ms
+2023-07-19 13:41:43.905 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 2424.0405ms
+2023-07-19 13:41:43.993 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 13:41:44.237 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 243.9254ms
+2023-07-19 13:41:44.494 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 13:41:45.033 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 539.4928ms
+2023-07-19 13:42:06.012 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel/1 - -
+2023-07-19 13:42:06.059 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 13:42:06.219 +01:00 [INF] Route matched with {action = "GetHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotel(Int32) on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 13:42:56.443 +01:00 [ERR] something went wrong in the GetHotel
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation 'countries' specified in string based include path 'countries'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`2.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam1 arg1, TParam2 arg2)
+   at Microsoft.EntityFrameworkCore.Diagnostics.CoreLoggerExtensions.InvalidIncludePathError(IDiagnosticsLogger`1 diagnostics, String navigationChain, String navigationName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at HotellistingAPI.Repository.GenericRepository`1.Get(Expression`1 expression, List`1 includes) in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Repository\GenericRepository.cs:line 0
+   at HotellistingAPI.Controllers.HotelController.GetHotel(Int32 id) in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Controllers\HotelController.cs:line 51
+2023-07-19 13:42:56.615 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-19 13:42:56.681 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI) in 50393.9947ms
+2023-07-19 13:42:56.699 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 13:42:56.729 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel/1 - - - 500 - text/plain;+charset=utf-8 50718.1427ms
+2023-07-19 13:42:59.532 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel/1 - -
+2023-07-19 13:42:59.542 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 13:42:59.547 +01:00 [INF] Route matched with {action = "GetHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotel(Int32) on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 13:43:12.663 +01:00 [ERR] something went wrong in the GetHotel
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation 'countries' specified in string based include path 'countries'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`2.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam1 arg1, TParam2 arg2)
+   at Microsoft.EntityFrameworkCore.Diagnostics.CoreLoggerExtensions.InvalidIncludePathError(IDiagnosticsLogger`1 diagnostics, String navigationChain, String navigationName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at HotellistingAPI.Repository.GenericRepository`1.Get(Expression`1 expression, List`1 includes) in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Repository\GenericRepository.cs:line 0
+   at HotellistingAPI.Controllers.HotelController.GetHotel(Int32 id) in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Controllers\HotelController.cs:line 51
+2023-07-19 13:43:12.730 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-19 13:43:12.734 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI) in 13175.0955ms
+2023-07-19 13:43:12.743 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 13:43:12.749 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel/1 - - - 500 - text/plain;+charset=utf-8 13216.5562ms
+2023-07-19 13:45:30.913 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel/1 - -
+2023-07-19 13:45:30.943 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 13:45:30.949 +01:00 [INF] Route matched with {action = "GetHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotel(Int32) on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 13:46:37.448 +01:00 [INF] Executed DbCommand (169ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM [Hotels] AS [h]
+2023-07-19 13:50:48.060 +01:00 [ERR] something went wrong in the GetHotel
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation 'countries' specified in string based include path 'countries'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`2.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam1 arg1, TParam2 arg2)
+   at Microsoft.EntityFrameworkCore.Diagnostics.CoreLoggerExtensions.InvalidIncludePathError(IDiagnosticsLogger`1 diagnostics, String navigationChain, String navigationName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at HotellistingAPI.Repository.GenericRepository`1.Get(Expression`1 expression, List`1 includes)
+   at HotellistingAPI.Controllers.HotelController.GetHotel(Int32 id)
+2023-07-19 13:51:29.793 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-19 13:51:29.841 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI) in 358884.9088ms
+2023-07-19 13:51:29.849 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 13:51:29.874 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel/1 - - - 500 - text/plain;+charset=utf-8 358961.0977ms
+2023-07-19 13:51:30.799 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 13:51:30.871 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 71.5430ms
+2023-07-19 13:51:31.031 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 13:51:31.037 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 13:51:31.046 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 8.6106ms
+2023-07-19 13:51:31.107 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 75.1070ms
+2023-07-19 13:52:36.029 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-19 13:52:36.219 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-19 13:52:36.234 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 13:52:36.237 +01:00 [INF] Hosting environment: Development
+2023-07-19 13:52:36.242 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-19 13:52:58.453 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 13:53:00.248 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 1812.2929ms
+2023-07-19 13:53:00.553 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 13:53:00.580 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 26.4446ms
+2023-07-19 13:53:00.918 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 13:53:01.339 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 420.6560ms
+2023-07-19 13:53:02.653 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 13:53:03.108 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 455.3407ms
+2023-07-19 13:56:05.873 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-19 13:56:06.108 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-19 13:56:06.155 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 13:56:06.160 +01:00 [INF] Hosting environment: Development
+2023-07-19 13:56:06.163 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-19 13:56:08.544 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 13:56:10.524 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 13:56:10.705 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 2173.8677ms
+2023-07-19 13:56:10.777 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 13:56:10.791 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 267.3427ms
+2023-07-19 13:56:10.985 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 207.9701ms
+2023-07-19 13:56:11.340 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 13:56:12.007 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 666.5048ms
+2023-07-19 13:56:24.783 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel/1 - -
+2023-07-19 13:56:24.819 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 13:56:24.976 +01:00 [INF] Route matched with {action = "GetHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotel(Int32) on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 13:56:36.616 +01:00 [INF] Executed DbCommand (334ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM [Hotels] AS [h]
+WHERE [h].[Id] = @__id_0
+2023-07-19 13:56:46.640 +01:00 [INF] Executing OkObjectResult, writing value of type 'HotellistingAPI.Models.HotelDTO'.
+2023-07-19 13:56:47.050 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI) in 22054.4122ms
+2023-07-19 13:56:47.058 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 13:56:47.096 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel/1 - - - 200 101 application/json;+charset=utf-8 22313.4258ms
+2023-07-19 13:58:11.885 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-19 13:58:12.090 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-19 13:58:12.277 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 13:58:12.364 +01:00 [INF] Hosting environment: Development
+2023-07-19 13:58:12.386 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-19 13:58:14.733 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 13:58:16.285 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 13:58:16.319 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 32.3107ms
+2023-07-19 13:58:16.322 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 1605.9964ms
+2023-07-19 13:58:16.398 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 13:58:16.740 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 341.5039ms
+2023-07-19 13:58:16.945 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 13:58:17.502 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 557.1728ms
+2023-07-19 13:58:55.874 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel/1 - -
+2023-07-19 13:58:55.912 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 13:58:56.092 +01:00 [INF] Route matched with {action = "GetHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotel(Int32) on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 14:53:13.774 +01:00 [INF] Now listening on: https://localhost:7053
+2023-07-19 14:53:13.933 +01:00 [INF] Now listening on: http://localhost:5053
+2023-07-19 14:53:13.946 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 14:53:13.951 +01:00 [INF] Hosting environment: Development
+2023-07-19 14:53:13.965 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-07-19 14:53:16.047 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2023-07-19 14:53:16.876 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 832.2939ms
+2023-07-19 14:53:16.878 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 14:53:16.897 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - -
+2023-07-19 14:53:16.915 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 36.4732ms
+2023-07-19 14:53:16.992 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 95.1705ms
+2023-07-19 14:53:17.205 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2023-07-19 14:53:17.483 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 278.7757ms
+2023-07-19 14:53:21.897 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Country - -
+2023-07-19 14:53:21.912 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.CountryController.GetCountries (HotellistingAPI)'
+2023-07-19 14:53:21.945 +01:00 [INF] Route matched with {action = "GetCountries", controller = "Country"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCountries() on controller HotellistingAPI.Controllers.CountryController (HotellistingAPI).
+2023-07-19 14:53:24.711 +01:00 [INF] Executed DbCommand (90ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+2023-07-19 14:53:24.904 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotellistingAPI.Models.CountryDTO, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-19 14:53:25.101 +01:00 [INF] Executed action HotellistingAPI.Controllers.CountryController.GetCountries (HotellistingAPI) in 3144.0472ms
+2023-07-19 14:53:25.106 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.CountryController.GetCountries (HotellistingAPI)'
+2023-07-19 14:53:25.128 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Country - - - 200 172 application/json;+charset=utf-8 3231.3510ms
+2023-07-19 14:53:39.892 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Country/1 - -
+2023-07-19 14:53:39.898 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.CountryController.GetCountry (HotellistingAPI)'
+2023-07-19 14:53:39.925 +01:00 [INF] Route matched with {action = "GetCountry", controller = "Country"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCountry(Int32) on controller HotellistingAPI.Controllers.CountryController (HotellistingAPI).
+2023-07-19 14:53:40.425 +01:00 [INF] Executed DbCommand (66ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name], [t].[ShortName], [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[Name], [c].[ShortName]
+    FROM [Countries] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [Hotels] AS [h] ON [t].[Id] = [h].[CountryId]
+ORDER BY [t].[Id]
+2023-07-19 14:53:40.455 +01:00 [INF] Executing OkObjectResult, writing value of type 'HotellistingAPI.Models.CountryDTO'.
+2023-07-19 14:53:40.459 +01:00 [INF] Executed action HotellistingAPI.Controllers.CountryController.GetCountry (HotellistingAPI) in 529.7366ms
+2023-07-19 14:53:40.463 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.CountryController.GetCountry (HotellistingAPI)'
+2023-07-19 14:53:40.468 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Country/1 - - - 200 140 application/json;+charset=utf-8 576.0966ms
+2023-07-19 14:53:44.925 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel - -
+2023-07-19 14:53:44.930 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 14:53:44.941 +01:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 14:53:44.980 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM [Hotels] AS [h]
+2023-07-19 14:53:44.993 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotellistingAPI.Models.HotelDTO, HotellistingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-19 14:53:44.999 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI) in 49.6986ms
+2023-07-19 14:53:45.001 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotels (HotellistingAPI)'
+2023-07-19 14:53:45.003 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel - - - 200 301 application/json;+charset=utf-8 77.9498ms
+2023-07-19 14:53:52.665 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Hotel/1 - -
+2023-07-19 14:53:52.677 +01:00 [INF] Executing endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 14:53:52.685 +01:00 [INF] Route matched with {action = "GetHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotel(Int32) on controller HotellistingAPI.Controllers.HotelController (HotellistingAPI).
+2023-07-19 14:53:52.830 +01:00 [ERR] something went wrong in the GetHotel
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation 'country' specified in string based include path 'country'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`2.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam1 arg1, TParam2 arg2)
+   at Microsoft.EntityFrameworkCore.Diagnostics.CoreLoggerExtensions.InvalidIncludePathError(IDiagnosticsLogger`1 diagnostics, String navigationChain, String navigationName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at HotellistingAPI.Repository.GenericRepository`1.Get(Expression`1 expression, List`1 includes) in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Repository\GenericRepository.cs:line 0
+   at HotellistingAPI.Controllers.HotelController.GetHotel(Int32 id) in C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\Controllers\HotelController.cs:line 51
+2023-07-19 14:53:52.934 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-19 14:53:52.937 +01:00 [INF] Executed action HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI) in 244.4645ms
+2023-07-19 14:53:52.941 +01:00 [INF] Executed endpoint 'HotellistingAPI.Controllers.HotelController.GetHotel (HotellistingAPI)'
+2023-07-19 14:53:52.943 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Hotel/1 - - - 500 - text/plain;+charset=utf-8 280.4197ms

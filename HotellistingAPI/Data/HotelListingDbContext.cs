@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace HotellistingAPI.Data
 {
-    public class HotelListingDbContext : DbContext
+    public class HotelListingDbContext : IdentityDbContext<ApiUser>
     {
         public HotelListingDbContext(DbContextOptions options) : base(options)  
         {
@@ -56,8 +57,8 @@ namespace HotellistingAPI.Data
                new Hotel
                {
                    Id = 3,
-                   Name = "Comfort Suites",
-                   Address = "George Town",
+                   Name = "Grand Palldium",
+                   Address = "Nassau",
                    CountryId = 2,
                    Rating = 4
                }

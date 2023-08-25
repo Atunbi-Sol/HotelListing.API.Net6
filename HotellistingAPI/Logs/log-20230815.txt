@@ -1,0 +1,25 @@
+2023-08-15 12:41:56.757 +01:00 [INF] Now listening on: https://localhost:7053
+2023-08-15 12:41:57.903 +01:00 [INF] Now listening on: http://localhost:5053
+2023-08-15 12:41:58.113 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-15 12:41:58.119 +01:00 [INF] Hosting environment: Development
+2023-08-15 12:41:58.150 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-08-15 14:46:03.832 +01:00 [INF] Now listening on: https://localhost:7053
+2023-08-15 14:46:03.920 +01:00 [INF] Now listening on: http://localhost:5053
+2023-08-15 14:46:03.927 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-15 14:46:03.928 +01:00 [INF] Hosting environment: Development
+2023-08-15 14:46:03.929 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-08-15 15:02:06.829 +01:00 [INF] Now listening on: https://localhost:7053
+2023-08-15 15:02:07.248 +01:00 [INF] Now listening on: http://localhost:5053
+2023-08-15 15:02:07.386 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-15 15:02:07.396 +01:00 [INF] Hosting environment: Development
+2023-08-15 15:02:07.399 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-08-15 15:06:32.317 +01:00 [INF] Now listening on: https://localhost:7053
+2023-08-15 15:06:32.567 +01:00 [INF] Now listening on: http://localhost:5053
+2023-08-15 15:06:32.652 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-15 15:06:32.655 +01:00 [INF] Hosting environment: Development
+2023-08-15 15:06:32.657 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
+2023-08-15 17:56:56.565 +01:00 [INF] Now listening on: https://localhost:7053
+2023-08-15 17:56:56.662 +01:00 [INF] Now listening on: http://localhost:5053
+2023-08-15 17:56:56.671 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-15 17:56:56.673 +01:00 [INF] Hosting environment: Development
+2023-08-15 17:56:56.674 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\

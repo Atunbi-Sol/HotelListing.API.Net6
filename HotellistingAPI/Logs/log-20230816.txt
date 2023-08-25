@@ -1,0 +1,5 @@
+2023-08-16 16:43:52.558 +01:00 [INF] Now listening on: https://localhost:7053
+2023-08-16 16:43:52.603 +01:00 [INF] Now listening on: http://localhost:5053
+2023-08-16 16:43:52.611 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-16 16:43:52.612 +01:00 [INF] Hosting environment: Development
+2023-08-16 16:43:52.612 +01:00 [INF] Content root path: C:\Users\Atunbi Damilare\Desktop\C#\HotellistingAPI\HotellistingAPI\
