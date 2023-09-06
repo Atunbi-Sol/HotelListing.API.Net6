@@ -58,13 +58,13 @@ namespace HotellistingAPI.Controllers
             }
 
             _mapper.Map(hotelDto, hotel);
-
+            
             try
             {
                 await _hotelsRepository.UpdateAsync(hotel);
             }
             catch (DbUpdateConcurrencyException)
-            {
+            { 
                 if (!await HotelExists(id))
                 {
                     return NotFound();
